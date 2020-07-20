@@ -93,6 +93,22 @@
 - short of breath
 
 ## intent:mood_fear
+- blinked sweat from my eyes
+- My heart almost stopped beating
+- His eyes staring in disbelief
+- Wild with fear
+- My stomach turned to ice
+- Frozen on the spot
+- They hurried along the silent alley, as though driven by shuddering fear
+- Terror held me like a vice-like grip
+- The torture of my indecision and fear threatened to crush me
+- Those death-like eyes, devoid of all emotions...
+- Like the cold breath of a grave, her words seemed to cut my very soul.
+- I was strickened into silence
+- A ghastly whiteness spread over her face.
+- His face a frozen in a glassy state of horror
+- I stared at the corpse with a grim and shuddering fascination
+- An uncomfortable premonition of fear pervaded his senses
 
 ## intent:mood_frustrated
 

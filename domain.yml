@@ -27,6 +27,9 @@ entitities:
   - interaction
   - activities
 
+actions:
+  - action_check_mood
+
 slots:
   event:
     type: text
