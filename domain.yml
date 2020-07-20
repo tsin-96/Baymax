@@ -1,0 +1,47 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_sad
+  - mood_anger
+  - mood_anxiety
+  - mood_fear
+  - mood_frustrated
+  - mood_depression
+  - cause_accident
+  - cause_assault
+  - cause_abuse
+  - cause_trauma
+  - cause_serious_health_issues
+  - cause_misscarige
+  - cause_conflict
+  - cause_torture
+  - social_life
+  - personal_life
+  - general_topics
+
+entitities:
+  - event
+  - interaction
+  - activities
+
+slots:
+  event:
+    type: text
+    auto_fill: True
+  interaction:
+    type: text
+    auto_fill: True
+  activities:
+    type: text
+    auto_fill: True
+
+responses:
+  utter_goodbye:
+  - text: "Bye"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
