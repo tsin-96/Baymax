@@ -1,5 +1,8 @@
 intents:
   - greet
+  - intro
+  - inquire
+  - appreciate
   - goodbye
   - affirm
   - deny
@@ -7,43 +10,49 @@ intents:
   - mood_sad
   - mood_anger
   - mood_anxiety
-  - mood_fear
   - mood_frustrated
   - mood_depression
-  - cause_accident
-  - cause_assault
-  - cause_abuse
-  - cause_trauma
-  - cause_serious_health_issues
-  - cause_misscarige
-  - cause_conflict
-  - cause_torture
-  - social_life
-  - personal_life
-  - general_topics
+  
 
 entitities:
+  - name
   - event
-  - interaction
-  - activities
+  - emotion
 
 actions:
-  - action_check_mood
+  - action_default_fallback
 
 slots:
-  event:
-    type: text
-    auto_fill: True
-  interaction:
-    type: text
-    auto_fill: True
-  activities:
+  name:
     type: text
     auto_fill: True
 
 responses:
   utter_goodbye:
   - text: "Bye"
+  utter_goodbye2:
+  - text: "Alright then take care. Let's talk again sometime :)"
+  utter_greet:
+  - text: "Hello. How are you?"
+  utter_greet_int:
+  - text: "By the way how's your day going?"
+  - text: "So how are you?"
+  - text: "Now that you know who I am, tell a bit about your day."
+  utter_info:
+  - text: "Hi I'm Baymax, a chatbot designed to be there when in need :)"
+  utter_policy:
+  - text: "Everything you say will be our secret ;)"
+  utter_thanks:
+  - text: "Thank you! Would you like to talk about anything else?"
+  utter_happy:
+  - text: "That's nice to hear. Wanna tell me about your day?"
+  utter_question:
+  - text: "What do you want to talk about?"
+  - text: "What's up?"
+  utter_sad:
+  - text: "That's sad to hear."
+  utter_default:
+  - text: "I did not understand that. Can you please rephrase?"
 
 session_config:
   session_expiration_time: 60

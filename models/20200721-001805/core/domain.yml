@@ -1,0 +1,71 @@
+actions:
+- action_check_mood
+- utter_goodbye
+config:
+  store_entities_as_slots: true
+entities: []
+forms: []
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- affirm:
+    use_entities: true
+- deny:
+    use_entities: true
+- mood_great:
+    use_entities: true
+- mood_sad:
+    use_entities: true
+- mood_anger:
+    use_entities: true
+- mood_anxiety:
+    use_entities: true
+- mood_panic:
+    use_entities: true
+- mood_frustrated:
+    use_entities: true
+- mood_depression:
+    use_entities: true
+- cause_accident:
+    use_entities: true
+- cause_assault:
+    use_entities: true
+- cause_abuse:
+    use_entities: true
+- cause_trauma:
+    use_entities: true
+- cause_serious_health_issues:
+    use_entities: true
+- cause_misscarige:
+    use_entities: true
+- cause_conflict:
+    use_entities: true
+- cause_torture:
+    use_entities: true
+- social_life:
+    use_entities: true
+- personal_life:
+    use_entities: true
+- general_topics:
+    use_entities: true
+responses:
+  utter_goodbye:
+  - text: Bye
+session_config:
+  carry_over_slots_to_new_session: true
+  session_expiration_time: 60
+slots:
+  activities:
+    auto_fill: true
+    initial_value: null
+    type: rasa.core.slots.TextSlot
+  event:
+    auto_fill: true
+    initial_value: null
+    type: rasa.core.slots.TextSlot
+  interaction:
+    auto_fill: true
+    initial_value: null
+    type: rasa.core.slots.TextSlot

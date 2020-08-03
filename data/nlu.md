@@ -6,6 +6,29 @@
 - good evening
 - hey there
 
+## intent:intro
+- I'm [John](name)
+- The name is [Sarah](name)
+- Nice to meet you. I'm [Hamza](name)
+- They call me [Zara](name)
+
+## intent:inquire
+- Who are you?
+- And you are?
+- Who am I talking to?
+- are you a robot
+- who the hell are you?
+- introduce yourself
+- what are you
+- Speak! Who are you?
+
+## intent:appreciate
+- that's nice
+- cool
+- groovy
+- sounds nice
+- I like that
+
 ## intent:goodbye
 - bye
 - goodbye
@@ -18,6 +41,8 @@
 - of course
 - that sounds good
 - correct
+- ok
+- yeah
 
 ## intent:deny
 - no
@@ -36,6 +61,10 @@
 - I am feeling very good
 - I am great
 - I'm good
+- I finally got a job
+- I nailed the game
+- I look classy
+- That's cool man
 
 ## intent:mood_sad
 - sad
@@ -48,6 +77,13 @@
 - not very good
 - extremely sad
 - so sad
+- don’t have enough spirit
+- I was crying and sobbing
+- It only gets worse
+- Life is a swamp
+- Life has gotten boring
+- It's not funny anymore!
+- I was so stupid
 
 ## intent:mood_anger
 - angry
@@ -71,6 +107,7 @@
 - Are you sick?
 - Seriously! What were you thinking?
 - are you in your senses
+- urge to harm
 
 ## intent:mood_anxiety
 - anxious
@@ -92,46 +129,26 @@
 - feeling tensed
 - short of breath
 
-## intent:mood_fear
-- blinked sweat from my eyes
-- My heart almost stopped beating
-- His eyes staring in disbelief
-- Wild with fear
-- My stomach turned to ice
-- Frozen on the spot
-- They hurried along the silent alley, as though driven by shuddering fear
-- Terror held me like a vice-like grip
-- The torture of my indecision and fear threatened to crush me
-- Those death-like eyes, devoid of all emotions...
-- Like the cold breath of a grave, her words seemed to cut my very soul.
-- I was strickened into silence
-- A ghastly whiteness spread over her face.
-- His face a frozen in a glassy state of horror
-- I stared at the corpse with a grim and shuddering fascination
-- An uncomfortable premonition of fear pervaded his senses
-
 ## intent:mood_frustrated
+- anoyance
+- criticized
+- hindered
+- I don't know what to do?
+- Why did there have to be a delay?
+- I was just near the ending.
 
 ## intent:mood_depression
-
-## intent:cause_accident
-
-## intent:cause_assault
-
-## intent:cause_abuse
-
-## intent:cause_trauma
-
-## intent:cause_serious_health_issues
-
-## intent:cause_misscariage
-
-## intent:cause_conflict
-
-## intent:cause_torture
-
-## intent:social_life
-
-## intent:personal_life
-
-## intent:general_topics
+- I was feeling quite depressed when he asked me to break up with him.
+- I started having thoughts that I was causing irreparable psychological damage to my child and husband
+- I was asking myself: why do I have to go there; and couldn’t find an answer
+- I was doing it, doing it again and again but it was never enough
+- I am just a source of trouble for my family and friends
+- I don't want to wake up, I just wanna stay here
+- Recently, I have been thinking more and more often, that nobody needs me, nobody cares
+- I keep asking myself why I became like this
+- I became a throw away from life
+- suffering
+- myself
+- my
+- nobody
+- was trying

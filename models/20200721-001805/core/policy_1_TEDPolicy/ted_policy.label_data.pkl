@@ -1,0 +1,1 @@
+{"py/object": "rasa.utils.tensorflow.model_data.RasaModelData", "data": {"label_features": [{"py/object": "numpy.ndarray", "values": "eJxjYGiwZyAaEFJLilmE9JFrFrJ+mBm4zCIkj08PPjFizcOnDtn9xOiFqSfXLdj0kGIWoTAm1y347KBVeiTNDgAyIRfh", "shape": [11, 19], "dtype": "float32", "byteorder": "<"}]}, "label_key": null, "num_examples": 11}
