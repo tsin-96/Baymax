@@ -7,21 +7,44 @@
 
 # This is a simple example for a custom action which utters "Hello World!"
 
-# from typing import Any, Text, Dict, List
-#
-# from rasa_sdk import Action, Tracker
-# from rasa_sdk.executor import CollectingDispatcher
-#
-#
-# class ActionFallback(Action):
+from typing import Any, Text, Dict, List
+from collections import Counter
 
-#     def name(self) -> Text:
-#         return "action_default_fallback"
+from rasa_sdk import Action, Tracker
+from rasa_sdk.executor import CollectingDispatcher
 
-#     def run(self, dispatcher: CollectingDispatcher,
-#             tracker: Tracker,
-#             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-#         dispatcher.utter_message(text="I did not understand that. Can you please rephrase?")
+class ActionGetIntent(Action):
 
-#         return []
+     def name(self) -> Text:
+          return "action_get_intent"
+
+     def run(self, dispatcher: CollectingDispatcher,
+              tracker: Tracker,
+              domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+          intent= tracker.latest_message['intent'].get('name')
+        #   print("intent= "+intent)
+          
+        #   dispatcher.utter_message(text=intent)
+
+        convoList = []
+        subs = "mood"
+        stat = 0
+
+        if intent != "goodbye":
+            convoList.append(intent)
+        else:
+            moodList = [i for i in convoList if subs in i]
+
+            count = Counter(moodList)
+            c1 = count['mood_happy']*0.45
+            c2 = count['mood_sad']*0.20 + count['mood_depression']*0.15
+            c3 = count['mood_anger']*0.25 + count['mood_disgust']*0.20
+            c4 = count['mood_fear']*0.15 + count['mood_anxiety']*0.20
+            
+            if (c1 > c2+c3+c4):
+                stat = 1
+            else:
+                stat = -1
+        
+          return []

@@ -4,10 +4,13 @@
 
 ## happy path 1
 * greet
+  - action_get_intent
   - utter_greet
 * mood_great
+  - action_get_intent
   - utter_happy
 * deny
+  - action_get_intent
   - utter_goodbye2
 
 ## happy path 2
@@ -36,3 +39,7 @@
  - utter_info
  - utter_policy
  - utter_greet_int
+
+ ## out of bounds
+ * wrongreply
+  - utter_error
