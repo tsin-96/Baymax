@@ -6,7 +6,7 @@
 * greet
   - action_get_intent
   - utter_greet
-* mood_great
+* mood_happy
   - action_get_intent
   - utter_happy
 * deny
@@ -16,7 +16,7 @@
 ## happy path 2
 * greet
   - utter_greet
-* mood_great
+* mood_happy
   - utter_happy
 * affirm
   - utter_question

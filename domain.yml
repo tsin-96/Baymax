@@ -46,6 +46,9 @@ responses:
   utter_error:
   - text: I'm sorry I could not understand what you said, properly. You can try asking
       me something else or rephrasing your question.
+  utter_default:
+  - text: I could not understand. Please rephrase
 
 actions:
 - action_get_intent
+- action_default_fallback
