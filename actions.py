@@ -34,10 +34,7 @@ class ActionGetIntent(Action):
           subs = "mood"
           stat = 0
 
-          if intent != 'goodbye':
-              convoList.append(intent)
-              print(convoList)
-          else:
+          if intent == "goodbye":
               moodList = [i for i in convoList if subs in i]
               
               count = Counter(moodList)
@@ -48,14 +45,18 @@ class ActionGetIntent(Action):
               
               if (c1 > c2+c3+c4):
                   stat = 1
+                  
               else:
                   stat = -1
+                  
             
               rec = {
-                  "date":date.today(),
+                  "date":datetime.now(),
                   "status":stat
               }
-              
+              print(rec)
               collection.insert(rec)
+          else:
+              convoList.append(intent)
         
           return []

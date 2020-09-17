@@ -1,5 +1,6 @@
 ## say goodbye
 * goodbye
+  - action_get_intent
   - utter_goodbye
 
 ## happy path 1
@@ -15,31 +16,40 @@
 
 ## happy path 2
 * greet
+  - action_get_intent
   - utter_greet
 * mood_happy
+  - action_get_intent
   - utter_happy
 * affirm
+  - action_get_intent
   - utter_question
 
 ## sad path 1
 * mood_sad
- - utter_sad
+  - action_get_intent
+  - utter_sad
 
 ## say inquire
 * inquire
+  - action_get_intent
   - utter_info
   - utter_policy
 * appreciate
+  - action_get_intent
   - utter_thanks
 
 ## greet interuption
 * greet
- - utter_greet
+  - action_get_intent
+  - utter_greet
 * inquire
- - utter_info
- - utter_policy
- - utter_greet_int
+  - action_get_intent
+  - utter_info
+  - utter_policy
+  - utter_greet_int
 
  ## out of bounds
  * wrongreply
+  - action_get_intent
   - utter_error
