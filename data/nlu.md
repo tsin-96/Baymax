@@ -34,6 +34,8 @@
 - Bye bye
 - adios
 - adios?
+- no that's all
+- No that's alright
 - bye
 - bye .
 - bye :P
@@ -183,14 +185,12 @@
 - lets do this
 - nice
 - not bad
-- of course
 - ofcoure i do
 - ofcourse
 - oh awesome!
 - oh cool
 - oh good !!
 - oh super
-- ok
 - ok cool
 - ok fine
 - ok friend
@@ -374,7 +374,6 @@
 - I'm okay
 - doing great
 
-
 ## intent:mood_sad
 - sad
 - very sad
@@ -393,6 +392,11 @@
 - Life has gotten boring
 - It's not funny anymore!
 - I was so stupid
+- im not fine
+- I ain't feeling very good
+- im a bad person
+- I'm not good
+- I never wanted this
 
 ## intent:mood_anger
 - angry
@@ -443,7 +447,6 @@
 - deal with my ass, you bitch
 - f*ck
 - fuck
-- fuck off
 - fucking stupid
 - fucking work
 - get lost
@@ -536,7 +539,7 @@
 - i jumped out of my skin when I saw her
 - That incident made my blood run cold
 - Every time I hear the ‘Jaws’ soundtrack, my blood runs cold
-- the murder scared the living daylights out of me 
+- the murder scared the living daylights out of me
 - it was a traumatic expereince
 - I was severly firghtened
 - he struck fear in to thier heats
@@ -549,6 +552,7 @@
 - i don't want to feel hurt again
 - don't wanna die
 - do not wanna die
+- the thought of it makes me want to shrivel up and die
 
 ## intent:mood_depression
 - I was feeling quite depressed when he asked me to break up with him.
@@ -591,13 +595,70 @@
 - Repulsive
 - distasteful
 - Distasteful
-- repugnance
 - Repugnance
 - his disgust at the media has been covering the story
 - the idea of meeting raw meat disgust him
 - the incident left her feeling disgusted by herself
 - they felt nothing but repugnance for the group's violent history
-- a strong feeling of dislike or disgust 
+- a strong feeling of dislike or disgust
+
+## intent:road_accident
+- I just smashed my car
+- hit a car
+- i had a road accident
+- i just crashed into someone
+- stop the car! you nearly hit me
+- are you blind? Can't you drive properly
+- how the hell did you even get a liscense?
+- can you even pay for this?
+- why didn't you stop when I honked?
+- i tried to brake but the car didn't stop
+- you hit my car
+- the car hit a pole
+- driving rashly ended up in my car crashing into a truck
+- the bus fell from the bridge
+- the car crashed out of the highway
+- her car crashed in a building
+- you destroyed my car
+- what the hell happened to my ride
+- you were driving like a madman that's why you hit me
+- I had a car accident
+
+## intent:sexual-assault
+- he touched me in weird places
+- he forced me
+- He assaulted me
+- He broke me that night
+- when i told him to stop he didn't
+- he fondled me
+- he took advantage of me
+- he tried to trap me
+- She tried to trap me
+- she forced me to sleep with her
+- I screamed but no one came to save me from that monster
+- he fucked me
+- he stripped me naked and saw everything
+- he tried to take of my clothes
+- she took of my clothes
+- he tied me up
+- he raped me
+- rape
+- force
+- assault
+- he took her innocence
+
+## intent:self_harm
+- I want to kill myself
+- I hate this wretched world, i want it all to end
+
+## intent:threat
+- he threatened me
+- He thretened me with the evidence
+- she forced me to do it
+- She was the one who instigated me in the first place
+- blackmail
+- they blackmailed us
+- he got dirt on me
 
 ## intent:wrongreply
 - I think you cant help me

@@ -17,13 +17,15 @@ intents:
 - mood_fear
 - mood_depression
 - mood_disgust
+- road_accident
+- sexual-assault
+- self_harm
+- threat
 - wrongreply
 
 responses:
   utter_goodbye:
   - text: Bye
-  utter_goodbye2:
-  - text: Alright then take care. Let's talk again sometime :)
   utter_greet:
   - text: Hello. How are you?
   utter_greet_int:
@@ -39,15 +41,29 @@ responses:
   utter_happy:
   - text: That's nice to hear. Wanna tell me about your day?
   utter_question:
-  - text: What do you want to talk about?
-  - text: What's up?
-  utter_sad:
-  - text: That's sad to hear.
+  - text: What's bothering you?
+  - text: What's on your mind?
+  - text: Would you like to tell me what happened?
+  utter_angry:
+  - text: Calm down and tell me more about it
+  utter_nf:
+  - text: Is everything alright?
+  utter_inqu:
+  - text: Did anyone get hurt?
+  utter_inqu2:
+  - text: Are tehy still alive?
+  utter_seri:
+  - text: Once you take a life, it can't be undone. So be more careful next time
+  utter_accident:
+  - text: Be more careful next time. My advice to you is that when driving 
+      keep in mind that everyone except you is blind, so take care of yourself :)
+  utter_confirm:
+  - text: Ok.
   utter_error:
   - text: I'm sorry I could not understand what you said, properly. You can try asking
       me something else or rephrasing your question.
   utter_default:
-  - text: I could not understand. Please rephrase
+  - text: I could not understand. Please rephrase.
 
 actions:
 - action_get_intent

@@ -28,8 +28,8 @@ class ActionGetIntent(Action):
           sender_id = tracker.current_state()["sender_id"]
           conn= MongoClient("mongodb://localhost:27017/")
           
-          db = conn.Status
-          collection = db.conversations
+          db = conn.baymax
+          collection = db.statuses
           
           subs = "mood"
           stat = 0
@@ -52,7 +52,9 @@ class ActionGetIntent(Action):
             
               rec = {
                   "date":datetime.now(),
-                  "status":stat
+                  "status":stat,
+                  "senderID":sender_id,
+                 
               }
               print(rec)
               collection.insert(rec)
